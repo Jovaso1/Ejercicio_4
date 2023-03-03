@@ -1,0 +1,23 @@
+package ejercicio_4;
+import java.util.Scanner;
+
+public class Ejercicio_4 {
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int edadjuan, edadana, edadalber, edadmama;
+        Scanner entrada = new Scanner(System.in);
+        
+        System.out.println("Edad de Juan: ");
+        edadjuan = entrada.nextInt();
+        
+        edadalber = 2 * (edadjuan/3);
+        edadana = 4 *(edadjuan/3);
+        edadmama = edadjuan + edadana + edadalber;
+        
+        System.out.println("La edad de juan es " + edadjuan);
+        System.out.println("La edad de alberto es " + edadalber);
+        System.out.println("La edad de ana es " + edadana);
+        System.out.println("La edad de la mama es " + edadmama);
+    }
+    
+}
